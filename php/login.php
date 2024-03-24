@@ -10,7 +10,7 @@
 
 <body>
     <div class="login-container">
-        <form action="welcome.php" method="post">
+        <form action="LOGIN.php" method="post">
             <h2>Đăng nhập</h2>
             <div class="input-group">
                 <label for="username">Tên đăng nhập:</label>

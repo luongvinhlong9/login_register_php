@@ -25,6 +25,7 @@ if (isset($_POST['login'])) {
         echo "Sai tài khoản hoặc mật khẩu!";
     } else {
         if ($result['password'] == $password) {
+            header('location:welcome.php');
             echo "Đăng nhập thành công ";
         } else {
             echo "Sai tài khoản hoặc mật khẩu!";
